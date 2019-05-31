@@ -1,0 +1,12 @@
+function triangleTracker(){
+
+
+  var line1 = parseInt(document.getElementById("line1").value)
+  var line2 = parseInt(document.getElementById("line2").value)
+  var line3 = parseInt(document.getElementary("line3").value)
+
+if ((line1=0) || (line2=0) || (line3=0)){
+  result("invalid input of numbers")
+}
+
+}
