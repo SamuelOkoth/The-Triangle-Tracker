@@ -1,23 +1,29 @@
 h1 {
-    text-align: center;
-    color: rgb( 0, 255, 255);
+  text-align: center;
+  color: rgb(0, 255, 255);
 }
+
 body {
-  background-image:url();
+  background-image: url();
   color: lime white;
 }
+
 #a {
   padding: 4px;
 }
+
 #b {
   padding: 4px;
 }
+
 #c {
   padding: 4px;
 }
+
 p {
   padding: 4px;
 }
-.box{
+
+.box {
   margin-top: 5%;
 }
