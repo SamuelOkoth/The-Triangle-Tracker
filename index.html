@@ -1,30 +1,21 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title> THE TRIANGLE-TRACKER</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <link rel="stylesheet" href="javascript/javascript.js">
 </head>
 <body>
- <h1>Triangle Tracker</h1>
- <center>
-   <div class="text-box">
-     <p>
-      To determine whether a triangle is an Isosceles Triangle, an Equilateral Triangle, a Scalene Triangle or Not A Triangle...Enter the lengths of the three sides of the triangle.
-     </p>
-     <div class="box">
-     <p>Length of side A: <br>
-      <input type="number" id="a"></p> <br>
-      <p>Length of side B: <br>
-      <input type="number" id="b"></p> <br>
-      <p>Length of side C: <br>
-      <input type="number" id="c"></p> <br>
-      <input type="button" value="submit" onclick="triangleTracker()">
-    </div>
-    <p></p>
-   <script src="script.js"></script>
-  </div>
-  </center>
-  </body>
+<form action="index.html">
+    <h2>HEIGHT</h2><input type="number" value="" id="a" >
+    <h2>BASE</h2><input type="number" value="" id="b">
+    <h2>HYPORTENUS</h2><input type="number" value="" id="c">
+    <button onclick="result()">submit</button>
+    <button type ="reset">Reset</button>
+</form>
+<script src="js/alert.js" type="javascript"></script>
+</body>
 </html>

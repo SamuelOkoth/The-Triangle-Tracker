@@ -1,23 +1,22 @@
-function triangleTracker() {
- var lengthOfSideA = parseInt(document.getElementById("a").value);
- var lengthOfSideB = parseInt(document.getElementById("b").value);
- var lengthOfSideC = parseInt(document.getElementById("c").value);
- if (isNaN(lengthOfSideA)|| isNaN(lengthOfSideB)|| isNaN(lengthOfSideC)){
-   alert("please in put a number")
- }
-// else if (lengthOfSideA === 0 || lengthOfSideB === 0 || lengthOfSideC === 0)
-//     alert("please put a Number");
-//  }
- else if (lengthOfSideA === lengthOfSideB && lengthOfSideB === lengthOfSideC && lengthOfSideC === lengthOfSideA) {
-   alert("An Equilateral Triangle");
- }
- else if (lengthOfSideA === lengthOfSideB || lengthOfSideA === lengthOfSideC || lengthOfSideB === lengthOfSideC ) {
-   alert("An Isosceles Triangle");
- }
- else if ((lengthOfSideA+lengthOfSideB) <= (lengthOfSideC) || (lengthOfSideA+lengthOfSideC) <= (lengthOfSideB) || (lengthOfSideB+lengthOfSideC)<= (lengthOfSideA)) {
-   alert("Not a Triangle");
- }
- else  {
-   alert("A Scalene Triangle");
- }
+var a = parseFloat(document.getElementById('a').value);
+var b = parseFloat(document.getElementById('b').value);
+var c = parseFloat(document.getElementById('c').value);
+if ((a == NaN) || (b == NaN) || (c == NaN)) {
+    alert("Please insert valid dimension");
+}
+else if ((a === 0) || (b === 0) || (c === 0)) {
+    alert("Please insert valid dimension");
+}
+else if ((a + b <= c) || (b + c <= a) || (a + c <= b)) {
+    alert("Not a triangle .Try Again!");
+}
+else if ((a === b) || (b === c) || (a === c)) {
+    alert("Kudos ! isosceles triangle");
+}
+else if (a===b===c) {
+    alert("Kudos ! equilateral triangle");
+}
+else if ((a !== b) && (c !== a) && (b !== c)) {
+    alert("Kudos ! scalene triangle");
+}
 }
