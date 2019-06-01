@@ -1,17 +1,22 @@
-var a = parseFloat(document.getElementById('a').value);
-var b = parseFloat(document.getElementById('b').value);
-var c = parseFloat(document.getElementById('c').value);
-if ((a == NaN) || (b == NaN) || (c == NaN)) {
-  alert("Please insert valid dimension");
-} else if ((a === 0) || (b === 0) || (c === 0)) {
-  alert("Please insert valid dimension");
-} else if ((a + b <= c) || (b + c <= a) || (a + c <= b)) {
-  alert("Not a triangle .Try Again!");
-} else if ((a === b) || (b === c) || (a === c)) {
-  alert("Kudos ! isosceles triangle");
-} else if (a === b === c) {
-  alert("Kudos ! equilateral triangle");
-} else if ((a !== b) && (c !== a) && (b !== c)) {
-  alert("Kudos ! scalene triangle");
-}
+function triangleTracker() {
+ var side1 = parseInt(document.getElementById('side').value);
+ var side2 = parseInt(document.getElementById('side2').value);
+ var side3 = parseInt(document.getElementById('side3').value);
+
+
+ if (side1 === side2 && side2 === side3) {
+   alert("Equilateral Triangle");
+ if ((side1 + side2) <= side3 || (side2 + side3) <= side1 || (side1 + side3) <= side2) {
+   alert("Not a triangle");
+ } else if (side1 !== side2 && side2 !== side3 && side1 !== side3) {
+   alert("Scalene Triangle");
+ } else if (side1 === side2 || side2 === side3 || side1 === side3) {
+   alert("Isosceles triangle");
+ } else if((side1+side2)<=side3||(side2+side3)<=side1||(side1+side3)<=side2){
+   alert("Not a triangle");
+ }else{
+   alert("tri!")
+ } else if (side1 === side2 && side2 === side3) {
+   alert("Equilateral Triangle");
+ }
 }
