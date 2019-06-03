@@ -1,38 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
- <meta charset="utf-8">
- <title>Triangle Tracker.</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <title>Triangle tracker</title>
  <link rel="stylesheet" href="css/styles.css" type="text/css">
- <script src="javascript/javascript.js"></script>
 </head>
-
 <body>
- <div class="container">
-   <h1>Triangle Tracker.</h1>
-
-   <p>A webpage that allows users to input the length of three sides of a triangle and checks whether the sides form an equilateral, isosceles or scalene triangle.</p>
-   <div id="tank">
-     <form id="form">
-       <div class="form">
-         Side 1:<br><br>
-         <input id="side1" type="number"><br><br>
-       </div>
-       <div class="form">
-         Side 2:<br><br>
-         <input id="side2" type="number"><br><br>
-       </div>
-       <div class="form">
-         Side 3:<br><br>
-         <input id="side3" type="number"><br><br>
-       </div>
-       <div class="btn">
-         <input type="button" id="button" value="Submit" onClick="triangleTracker()">
-       </div>
-     </form>
-   </div>
- </div>
+  <div class="container">
+    <h1>The Triangle tracker</h1>
+<form action="index.html">
+   <h2>HEIGHT</h2><input type="number" value="" id="a" >
+   <br><br>
+   <h2>BASE</h2><input type="number" value="" id="b">
+   <br><br>
+   <h2>HYPORTENUS</h2><input type="number" value="" id="c">
+   <br><br>
+   <button onclick="result()">submit</button>
+   <button type ="reset">Reset</button>
+</form>
+<script src="javascript/result.js" type="text/javascript"></script>
+</div>
 </body>
-
 </html>
