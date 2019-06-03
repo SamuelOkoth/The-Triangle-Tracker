@@ -11,20 +11,26 @@ body {
 
 #a {
   padding: 4px;
-  font-size:20px;
-    border-radius:border: 2px solid brown; padding: 10px; border-radius: 50px;
+  font-size: 20px;
+  border-radius: border: 2px solid brown;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 #b {
   padding: 4px;
-  font-size:20px;
-  border-radius:border: 2px solid brown; padding: 10px; border-radius: 50px;
+  font-size: 20px;
+  border-radius: border: 2px solid brown;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 #c {
   padding: 4px;
-  font-size:20px;
-    border-radius:border: 2px solid brown; padding: 10px; border-radius: 50px;
+  font-size: 20px;
+  border-radius: border: 2px solid brown;
+  padding: 10px;
+  border-radius: 50px;
 }
 
 p {
@@ -34,9 +40,8 @@ p {
 .box {
   margin-top: 5%;
 }
-form{
+
+form {
   text-align: center;
   left: 200px;
-
-
 }
