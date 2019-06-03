@@ -1,6 +1,6 @@
 {Triangle Tracker}
 
-#### {}, {2019}
+#### {An application that allows to check triangles based on the similarity/difference of their sides}, {2019}
 
 #### By **{Samuel Okoth}**
 
