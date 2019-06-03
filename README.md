@@ -4,7 +4,13 @@ This is a web that allows users to key in numbers and check what type of triangl
 #Coder
 Samuel Okoth
 #Setup instructions
-*Load this webpage on a browser
-*Key in numbers in the spaces provided
-*Click the submit button
-*An alert should appear telling the type of triangle you have formed 
+Load this webpage on a browser
+Key in numbers in the spaces provided
+Click the submit button
+An alert should appear telling the type of triangle you have formed
+#Known Bugs
+All alphabets are unkeyable except e
+##Technologies used
+html
+css
+javascript
