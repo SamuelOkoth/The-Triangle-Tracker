@@ -2,7 +2,7 @@
    var a = parseFloat(document.getElementById('a').value);
   var b = parseFloat(document.getElementById('b').value);
   var c = parseFloat(document.getElementById('c').value);
-  if ((a == NaN) || (b == NaN) || (c == NaN)) {
+  if ((a ===NaN) || (b === NaN) || (c === NaN)) {
       alert("Please insert valid numbers");
   }
   else if ((a === 0) || (b === 0) || (c === 0)) {
