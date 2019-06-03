@@ -6,10 +6,12 @@ h1 {
 body {
   background-image: url(https://wallpapercave.com/wpt/wp4009321.jpg);
   color: lime white;
+  background-repeat: repeat;
 }
 
 #a {
   padding: 4px;
+  font-size:
 }
 
 #b {
