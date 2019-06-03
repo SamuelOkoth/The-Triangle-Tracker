@@ -11,17 +11,18 @@ body {
 
 #a {
   padding: 4px;
-  font-size:50px;
+  font-size:20px;
 }
 
 #b {
   padding: 4px;
-  font-size:50px;
+  font-size:20px;
+  border-radius:border: 2px solid brown; padding: 10px; border-radius: 50px
 }
 
 #c {
   padding: 4px;
-  font-size:50px;
+  font-size:20px;
 }
 
 p {
